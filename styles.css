@@ -1,66 +1,52 @@
-/*  your css code here. If applicable */
-body {
-        font-family: sans-serif;
-      }
-      h1 {
-        text-align: center;
-      }
-      span {
-        color: blue;
-      }
-      input {
-        margin: 10px;
-        width: 95vw;
-        height: 4.5vh;
-        border-radius: 5px;
-        border: 0.1rem solid #e6e9ed;
-      }
-      label,
-      button {
-        margin-left: 10px;
-      }
-      button {
-        border-radius: 5px;
-        width: 105px;
-        height: 40px;
-        background-color: #1a77f2ff;
-        color: white;
-        border: none;
-        font-size: large;
-      }
-
-      #submit:hover {
-        border: none;
-      }
-
-      thead {
-        height: 40px;
-        font-size: large;
-        border-bottom: 3px solid black;
-      }
-
-      .table {
-        width: 90vw;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        border-collapse: collapse;
-      }
-
-      .delete {
-        background-color: #dc3545;
-        color: white;
-        width: 30px;
-        height: 10px;
-        padding: auto;
-        text-align: center;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      tr td {
-        text-align: center;
-        margin-top: 40%;
-        background-color: #f2f2f2;
-        height: 40px;
-        border-bottom: 1px solid #dee2e6;
-      }
+body{
+	width:90%;
+	margin:auto;
+}
+.title{
+	font-size:50px;
+	text-align:center;
+}
+span{
+	color:blue;
+}
+input{
+	height:30px;
+	width:100%;
+}
+#submit{
+	background-color:#1877F2;
+	color:white;
+	padding:6px;
+	border-radius:3px;
+	border:0px;
+}
+button:hover{
+	cursor:pointer;
+}
+table{
+	margin-top:40px;
+	width:100%;
+	border-collapse:collapse;
+}
+tr{
+	border-bottom:2px solid #B0B0B0;
+}
+tr.border{
+	border-bottom:2px solid black;
+}
+tr{
+	background-color:#F8F8F8;
+}
+th{
+	background-color:white;
+	width:27%;
+	text-align:left;
+}
+td,th{
+	padding:10px 5px;
+}
+.delete{
+	background-color:red;
+	border:none;
+	padding:2px;
+}
